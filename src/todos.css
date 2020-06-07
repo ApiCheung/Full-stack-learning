@@ -1,0 +1,44 @@
+li{
+    border: 2px solid red;
+}
+/*id*/
+#special{
+    background: yellow;
+}
+/*class*/
+.completed{
+    text-decoration: line-through;
+}
+/*
+id class element star descendat sleector adjacent selector attribute selector
+*/
+* {
+    border: 1px solid lightgray;
+}
+/*descendor*/
+li a {
+    color: red;
+
+}
+/*adjacent selector*/
+h4 + ol{
+    border:4px solid red;
+}
+/*attribute selector*/
+a[href="http://google.com"]{
+    background: blue;
+}
+input[type="checkbox"]{
+    background: azure;
+    color: aqua;
+}
+/*nth of type*/
+ul:nth-of-type(1){
+background: lightpink;
+}
+
+li:nth-of-type(odd){
+    background: lightgray;
+
+}
+

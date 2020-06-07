@@ -1,0 +1,21 @@
+p{
+    font-family: Arial;
+}
+h1{
+    font-family: Chelsea Market;
+}
+h1{
+    font-size: 50px;
+}
+/*和周围的相比是两杯*/
+span{
+    font-size: 2.0em;
+}
+#special{
+    font-size: 40px;
+    line-height: 1.5;
+}
+h1 {
+    text-align: center;
+}
+/* content padding border margin in the box model */
